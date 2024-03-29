@@ -2,14 +2,16 @@
   "name": "chai-or-backend",
   "version": "1.0.0",
   "description": "a backend code for video streaming and sharing platform",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
-  "author": "\"Shubham Chhangani\"",
+  "author": "Shubham Chhangani",
   "license": "ISC"
 }
