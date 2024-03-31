@@ -16,3 +16,19 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
+/*
+const mongodb_uri = process.env.MONGODB_URI;
+async function connectDB() {
+  mongoose
+    .connect(mongodb_uri, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(() => {
+      console.log("MongoDB connected!!");
+    })
+    .catch((err) => {
+      console.error("MongoDB connection error:", err);
+    });
+}
+
+export default connectDB;
+*/
